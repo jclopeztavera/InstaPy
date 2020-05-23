@@ -14,4 +14,4 @@ COMMENTS = ['Nice shot! @{}',
         'Getting inspired by you @{}',
         ':raised_hands: Yes!']
 
-TOPICS = ["topic1", "topic2"]
+TOPICS = "general"
