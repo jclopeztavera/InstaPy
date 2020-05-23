@@ -5688,11 +5688,11 @@ class InstaPy:
             )
             return self
 
-        if self.comments is not None and len(self.comments) < 10:
-            self.logger.error(
-                "You have too few comments, please set at least 10 distinct comments to avoid looking suspicious."
-            )
-            return self
+#        if self.comments is not None and len(self.comments) < 10:
+#            self.logger.error(
+#                "You have too few comments, please set at least 10 distinct comments to avoid looking suspicious."
+#            )
+#            return self
 
         user_link = "https://www.instagram.com/{}/".format(self.username)
         web_address_navigator(self.browser, user_link)
